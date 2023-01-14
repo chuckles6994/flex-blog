@@ -1,0 +1,42 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+.blog {
+    margin: 5rem 30rem;
+}
+
+img {
+    width: 60%;
+    height:300px;
+    object-fit: cover;
+}
+
+.i:nth-child(odd) .image{
+    order: 2;   
+}
+.i:nth-child(odd) .info{
+    order: 1;   
+}
+.i{
+    display: flex;  
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.text{
+    max-width: 25rem;
+}
+.date{
+    margin-top:170px;
+}
